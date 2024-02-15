@@ -1,0 +1,184 @@
+body
+{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    background-color: #141414;
+}
+.intro
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    gap: 10%;
+    background-color: #141414;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+#dpimg
+{
+    height: 430px;
+    width: 430px;
+    border-radius: 50%;
+    border: 3px white solid;
+    padding: 10px;
+
+}
+.line
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 30%;
+    font-size: 40px;
+    color: white;
+}
+.hello
+{
+    font-size: 80px;
+}
+.name
+{
+    font-size: 60px;
+    color: #9F70FD;
+    padding-top: 3%;
+}
+section
+{
+    height: 100vh;
+    width: 100%;
+}
+.test
+{
+    background-color: #E3E2DC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    gap: 8%;
+}
+.ProjectsHeader
+{
+    font-size: 80px;
+    text-align: center;
+}
+.cardholder
+{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   width: 80%;
+   gap: 50px;
+   margin-bottom: 10%;
+}
+.card
+{
+   height: 430px;
+   width: 280px;
+   background-color: #040404;
+   border-radius: 20px;
+   border: 0px;
+   outline: 0px;
+   transition: linear 0.3s;
+}
+.card:hover
+{
+    background-color: #9B8CD7;
+    transform: scale(1.2);
+    color: black;
+}
+.card:active
+{
+    transform: scale(0.90) 
+}
+.cardimg
+{
+    border: 0;
+    outline: 0px;
+    height: 60%;
+    width: 100%;
+    border-radius:10px 10px 0px 0px ;
+    border: 0px;
+}
+.card h1
+{
+    border: 0;
+    outline: 0;
+    margin-bottom: 26%;
+    padding: 10px 60px;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+a
+{
+    text-decoration: none;
+}
+@media(max-device-width: 480px) 
+{
+.intro
+{
+    height: 100vh;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+}
+.line
+{
+    margin: 0;
+    height: 0;
+    margin-bottom: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+img
+{
+    padding: 20px;
+    margin-bottom: 10%;
+}
+.hello
+{
+    font-size: 60px;
+    margin: 0;
+}
+.cardholder
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.card
+{
+    height: 300px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardimg
+{
+    height: 100%;
+    width: 60%;
+    padding: 0;
+    margin: 0;
+}
+.card h1
+{
+    width: 200px;
+    margin: 0;
+}
+}
